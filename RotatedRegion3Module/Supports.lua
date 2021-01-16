@@ -1,3 +1,5 @@
+-- Credits to EgoMoose, https://devforum.roblox.com/t/rotated-region-3-module/334068
+
 local ZERO = Vector3.new(0, 0, 0)
 local RIGHT = Vector3.new(1, 0, 0)
 
