@@ -1,3 +1,5 @@
+-- Credits to EgoMoose, https://devforum.roblox.com/t/rotated-region-3-module/334068
+
 local MAX_TRIES = 20
 local ZERO3 = Vector3.new(0, 0, 0)
 
