@@ -1,3 +1,5 @@
+-- Credits to EgoMoose, https://devforum.roblox.com/t/rotated-region-3-module/334068
+
 -- CONSTANTS
 
 local PI2 = math.pi*2
