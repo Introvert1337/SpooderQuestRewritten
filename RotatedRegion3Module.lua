@@ -1,8 +1,8 @@
 -- Credits to EgoMoose, https://devforum.roblox.com/t/rotated-region-3-module/334068
 
-local GJK = loadstring(game:HttpGet(""))()
-local Supports = loadstring(game:HttpGet(""))()
-local Vertices = loadstring(game:HttpGet(""))()
+local GJK = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/GJK.lua"))()
+local Supports = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/Supports"))()
+local Vertices = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/Vertices"))()
 
 -- Class
 
