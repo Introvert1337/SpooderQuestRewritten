@@ -1,4 +1,4 @@
-shared.Settings = {
+getgenv().Settings = {
     Lobby = {
         Safety = {
             WalkEnabled = false, 
