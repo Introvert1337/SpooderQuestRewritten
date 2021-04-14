@@ -257,4 +257,4 @@ shared.Settings = {
     }
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/Beta.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/SpooderQuestRewritten/main/TextScript.lua"))()
