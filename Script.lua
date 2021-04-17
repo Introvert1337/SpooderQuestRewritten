@@ -31,7 +31,11 @@ getgenv().Settings = {
         DistanceFromMobs = 50,
         AttackRange = 55,
         SmallTeleports = true, -- Autofarm won't work well on aquatic with this disabled
-        Instakill = true
+        Instakill = true,
+
+        Experimental = {
+            LimitSpellCasting = false
+        }
     },
 
     AutoSell = {
@@ -253,6 +257,16 @@ getgenv().Settings = {
 
     Webhook = {
         Enabled = false,
+        PingForRarity = {
+            "legendary"
+        },
+        PingForItems = {
+            ["Triton Warrior Helmet"] = {"epic"},
+            ["Triton Warrior Armor"] = {"epic"},
+            ["Triton Mage Armor"] = {"epic"},
+            ["Triton Mage Helmet"] = {"epic"}
+        },
+        DiscordUserID = "760614887776059392",
         Url = "https://discord.com/api/webhooks/"
     }
 }
