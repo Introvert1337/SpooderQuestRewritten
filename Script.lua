@@ -7,7 +7,7 @@ getgenv().Settings = {
         },
         
         Misc = {
-            WaitTime = 0, --Wait before script activates
+            WaitTime = 0, 
             AutoCollectDaily = true
         }
     },
@@ -17,24 +17,24 @@ getgenv().Settings = {
         
         Configuration = {
             Hardcore = false,
-            AutoSelectHighest = false
+            AutoSelectHighest = true
         },
         
         CustomDungeon = {
-            Name = "Aquatic Temple",
+            Name = "Ghastly Harbor",
             Difficulty = "Nightmare"
         },
     },
 
     Autofarm = {
-        Walkspeed = 30, -- Higher than 30 is sometimes risky
+        Walkspeed = 30, 
         DistanceFromMobs = 50,
         AttackRange = 55,
-        SmallTeleports = true, -- Autofarm won't work well on aquatic with this disabled
+        SmallTeleports = true, 
         Instakill = true,
 
         Experimental = {
-            LimitSpellCasting = false
+            LimitSpellCasting = true
         }
     },
 
@@ -206,17 +206,17 @@ getgenv().Settings = {
 
     AutoEquip = {
         Enabled = false, 
-        EquipType = "physical" -- "physical", "spell"
+        EquipType = "physical" 
     },
 
     AutoUpgrade = {
         Enabled = false, 
-        UpgradeType = "physicalPower" -- "physicalPower", "stamina", "spellPower"
+        UpgradeType = "physicalPower" 
     },
 
     AutoSkill = {
         Enabled = false,
-        SkillType = { -- Precentages to upgrade each skill point
+        SkillType = { 
             ["physicalPower"] = 100,
             ["spellPower"] = 0,
             ["stamina"] = 0
@@ -226,11 +226,13 @@ getgenv().Settings = {
     LagReductions = {
         BadGraphics = true,
         DestroyGear = true,
-        DisableSpellEffects = true
+        DisableDamageNumbers = false,
+        DisableSpellEffects = true,
+        DestroyMap = true
     },
 
     CustomUI = {
-        Enabled = true,
+        Enabled = false,
         Name = "Spooder > MRob",
         Level = "1337",
         EXP = "1337",
